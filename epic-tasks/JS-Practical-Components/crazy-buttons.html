@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body, .jumbotron { padding: 30px; }
+        .text-giant { font-size: 40px; }
+        .btn-crazy { 
+            position: absolute;
+            top: 30px;
+            left: 35%;
+            width: 30%;
+            transition: 0.5s ease all;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text-center">
+        <button type="button" class="btn-crazy btn btn-lg btn-danger">Click Me!</button>
+        <button type="button" class="btn-crazy btn btn-lg btn-primary">Click Me!</button>
+        <button type="button" class="btn-crazy btn btn-lg btn-success">Click Me!</button>
+    </div>
+    
+    <!-- 🔥🔥🔥🔥 start javascript 🔥🔥🔥🔥 -->
+
+    <script>
+        const crazyButtons = document.querySelectorAll('.btn-crazy');
+
+        crazyButtons.forEach(button => button.addEventListener('mouseenter', goCrazy));
+
+        function goCrazy() {
+            const offsetLeft = Math.random() * (window.innerWidth - this.clientWidth);
+            const offsetTop = Math.random() * (window.innerHeight - this.clientHeight);
+
+            this.style.left = offsetLeft + 'px';
+            this.style.top = offsetTop + 'px';
+        }
+    </script>
+    
+</body>
+</html>
