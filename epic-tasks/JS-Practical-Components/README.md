@@ -49,5 +49,13 @@ A neat little trick I used in this project was to `console.log(this)` to see wha
 
 ## Scrolling Progress
 
+This nifty component features an indicator that fills up based on how much you have scrolled through a given article.  While simple, the logic behind it is neat.
+
+3 variables - `windowHeight` (the height of the window), `fullHeight` (the height of the page including the parts hidden before scrolling), and `scrolled` (how many pixels the document is currently scrolled from the top of the viewport) - are used to calculate the `percentScrolled` and update the indicator.
+
+In order to help the program run efficiently when working with larger pages, the `debounce()` function from the Lodash library is used to limit how often the indicator updates.  I used the default wait time of 15 milliseconds.
+
+
+
 ## Reflection
 
