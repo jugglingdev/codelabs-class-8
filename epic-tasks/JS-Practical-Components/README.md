@@ -23,6 +23,18 @@ In past projects I've used `e` a lot, so it was neat to apply `this` here.
 
 ## Stopwatch
 
+In this project, I whipped up a simple stopwatch that includes start, stop, and reset buttons that operate a timer.
+
+One concept that I enjoyed about this project was the `pad()` function which makes sure that the seconds and minutes always have two digits each.  So, instead of showing `0:0`, `0:1`, etc., the timer would show `00:00`, `00:01`, etc.
+
+Another concept that was helpful was the use of the `isRunning` boolean to return the start and stop functions so that multiple timers wouldn't be incrementing in the background.
+
+I also appreciated that the `setInterval()` function was separated from `incrementTimer()` in order to keep the code clean and keep track of `interval` when calling `clearInterval(interval)` to stop the timer.  I'm a fan of small, easy-to-read functions.
+
+Finally, I liked seeing an example of using JS `data-` attributes to grab an element.  If I were doing this on my own, I would have add an ID, so it was nice to see this alternative when you want to create custom attributes with JS.
+
+
+
 ## Accordion
 
 ## Scrolling Progress
