@@ -19,7 +19,7 @@ The randomized positioning was done with `Math.random()` multiplied by the heigh
 
 In past projects I've used `e` a lot, so it was neat to apply `this` here.
 
-## Coding Playground
+
 
 ## Stopwatch
 
