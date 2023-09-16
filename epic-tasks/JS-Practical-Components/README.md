@@ -37,6 +37,16 @@ Finally, I liked seeing an example of using JS `data-` attributes to grab an ele
 
 ## Accordion
 
+The accordion project was pretty neat because the CSS carried as much weight as the JS to make it work.  In it, there are 3 simple questions that the user can click to make answers appear.  I added the functionality that only one answer can be open at a time, though it's possible to change that so you can have as many open as you'd like at a time.
+
+In the CSS, I liked using `transform` to make the chevron icons rotate when opening and closing.  I also liked getting a little practice with `cubic-bezier` as a `transition` value to customize the timing of a transition.
+
+I used an `open` class to style a list item with the answer showing.  In the JS, instead of adding and removing the `open` class with two separate functions to make the list items open and close, I used `toggle()`.
+
+A neat little trick I used in this project was to `console.log(this)` to see what `this` refers to.  In `toggleAccordion()`, `this` referred to the `question` element, but I needed it to refer to the `li` element.  I used `this.parentNode` to do just that.
+
+
+
 ## Scrolling Progress
 
 ## Reflection
