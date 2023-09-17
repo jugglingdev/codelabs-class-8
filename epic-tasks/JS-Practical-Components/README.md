@@ -61,4 +61,6 @@ In order to help the program run efficiently when working with larger pages, the
 
 Overall, this was a fun collection of projects.  Though they were simple, they each had little helpful tidbits that I can take with me into future projects.
 
+My favorite applications were the use of `this` in place of `e.target`, custom `data-` attributes in JavaScript, the `pad()` function to maintain time format, and the `debounce()` function from the Lodash library.  I also liked learning more about `cubic-bezier()` and working the DOM with `this.parentNode`.  Working with `window` in multiple ways was also helpful.
 
+As a bonus, I learned how to make GIFs to demo all the components.  Not too shabby.
