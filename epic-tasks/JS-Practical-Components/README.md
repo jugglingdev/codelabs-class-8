@@ -1,6 +1,6 @@
 # Mastering Practical JavaScript: From DOM Interactions to Building Components
 
-This series documents practical applications of JavaScript concepts related to the DOM.
+This series documents practical applications of JavaScript concepts related to the DOM.  The projects listed below are included in Chris Sev's [Getting Started with JavaScript](https://chrissev.gumroad.com/l/getting-started-with-javascript/) course as a part of the [Codefi CodeLabs](https://www.codelabsdash.com/) bootcamp curriculum.
 
 ## Table of Contents
 - [Mastering Practical JavaScript: From DOM Interactions to Building Components](#mastering-practical-javascript-from-dom-interactions-to-building-components)
